@@ -1,0 +1,6 @@
+Download World Ender here:
+	Client	v0.3		https://mega.nz/file/y95yiBCD#g-DEvH54OVVgzCecOyBoPEP6LxT6uyQZ8unrV3Jg_lg
+	Server	v0.4		https://mega.nz/file/fxpUCCrB#1anBVWlaL7b6AJQ7ce6j8KUizTETIvtTltQtx-tUSZY
+
+REQUIRED: Based on TribesRPG repack
+	https://tribesrpg.org/downloads.php
