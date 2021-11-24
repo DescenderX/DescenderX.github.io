@@ -7,13 +7,15 @@ a:active {color: red;text-decoration: underline;}
 .important {color: rgb(190 160 50);background-color: black;text-decoration: none;}
 .textblock {color: gray;background-color: rgba(0,0,0,0.8);text-decoration: none;padding: 16px;border-radius: 25px;border: 2px solid;border-color: rgb(33,11,23);width: 80%;margin: auto;}
 table {margin:auto;text-align:center;font-size:16pt;background-color: rgba(0,0,0,0.8);}
+.zonetbl {margin:auto;text-align:center;font-size:16pt;background-color: rgba(0,0,0,0.8);}
+.zonetbl td + td {border: 1px solid rgb(50,33,10); }
 ol {margin:auto;font-size:16pt;}
 ol li {padding:8px;}
 ul {margin:auto;font-size:16pt;}
 ul li {padding:8px;}
 .skills td {color: rgb(190 160 50);background-color: rgb(25,0,0);padding: 8px;}
 .skills td + td {padding: 8px;color: rgb(200,200,200);}
-.headerblock {color: rgb(150,30,11);background-color: rgba(33,10,15,0.5);text-decoration: none;padding: 12px;border-radius: 24px;border: 4px solid;border-color: rgb(50,0,0);text-align: center;margin: 8px;font-size: 32pt;display: inline-block;}
+.headerblock {color: rgb(150,30,11);background-color: rgba(33,10,15,0.5);text-decoration: none;padding: 8px;border-radius: 24px;border: 4px solid;border-color: rgb(50,0,0);text-align: center;margin: 8px;font-size: 32pt;display: inline-block;}
 .headerblock2 {color: rgb(150,55,33);background-color: rgba(33,10,15,0.5);text-decoration: none;padding: 12px;border-radius: 14px;border: 2px solid;border-color: rgb(50,0,0);text-align: center;margin: 8px;font-size: 24pt;display: inline-block;}
 a:hover {  text-decoration: none;}
 a .headerblock:hover {color: rgb(180,70,11);background-color: rgba(33,10,15,1);text-decoration: none;padding: 12px;border-radius: 24px;border: 4px solid;border-color: rgb(50,0,0);text-align: center;margin: 4px;font-size: 32pt;}
@@ -25,23 +27,13 @@ a .headerblock:hover {color: rgb(180,70,11);background-color: rgba(33,10,15,1);t
 <body id="top" bgcolor="black" text="gray" link="maroon" visited="maroon" style="background-image: url('cave.jpg');">
 
 <center>
-<h1 class="softblack">TribesRPG: World Ender</h1>
-
-<h2 class="softblack">Client</br>
-<a href="https://mega.nz/file/y95yiBCD#g-DEvH54OVVgzCecOyBoPEP6LxT6uyQZ8unrV3Jg_lg">Download World Ender v0.3</a></br>
-<a href="https://tribesrpg.org/downloads.php" style="color: rgb(190 160 50);">REQUIRED:</font> TribesRPG.org Repack</a>
-</h2>
-
-<h2 class="softblack">Server<br/>
-<a href="https://mega.nz/file/fxpUCCrB#1anBVWlaL7b6AJQ7ce6j8KUizTETIvtTltQtx-tUSZY">Download v0.4</a><br/>
-<a href="https://github.com/DescenderX/TribesRPGWorldEnder">Browse Server on GitHub</a>
-</h2>
+<h1 class="softblack">TribesRPG: World Ender<br/>
+<font style="font-size: 16pt;">Based on <a href="https://tribesrpg.org/downloads.php" style="">TribesRPG.org Repack</a></font>
+</h1>
 </center>
 
-<br/>
-<br/>
 <center><div style="overflow:auto; box-sizing: border-box;">
-<a href="#install"><div class="headerblock">Install & Play</div></a>
+<a href="#story"><div class="headerblock">Story</div></a>
 <a href="#mechanics"><div class="headerblock">Gameplay</div></a>
 <a href="#classes"><div class="headerblock">Classes</div></a>
 <a href="#houses"><div class="headerblock">Houses</div></a>
@@ -52,12 +44,44 @@ a .headerblock:hover {color: rgb(180,70,11);background-color: rgba(33,10,15,1);t
 <br/>
 </div>
 
+
+<p></p>
+
+<div class="textblock">
+<div class="headerblock">Download & Play</div>
+<br/>
+<center>
+<div class="softblack" style="padding: 4px; margin: 0px;">
+<h1 class="softblack" style="display: inline-block; color: rgb(190 160 50);">Client v0.5
+<a href="https://mega.nz/file/ytohCaKQ#vyNquuTwlXRekHRc3G4GZne9WKbQTFqP3nn5nKFM_TM">Standalone</a> or 
+<a href="https://mega.nz/file/CxoHha6R#1_AM7UPfkyXTZejaOLH575XGpJ_Nh2wBHGNQT6MNiWo">Mod ONLY</a>
+</h1><br/>
+If you already have TribesRPG installed, you do NOT need to overwite any files.<br/>
+This mod replaces a small number of sounds and skins found in the base TribesRPG mod.<br/><br/></div>
+<br/>
+<div class="softblack" style="padding: 4px; margin: 0px;">
+<h1 class="softblack" style="display: inline-block; color: rgb(190 160 50);">Server v0.5
+<a href="https://mega.nz/file/Kx4TFCCY#h7bU4zgJfTYjmTLrMkYgikYPHxz7SHBIcvLOBoILTqY">Standalone</a> or 
+<a href="https://mega.nz/file/rlolUaLD#jIXzx4AeWjP2vQy-_KdrsIFO-1sSPFtrK-D7ipn-C6w">Mod ONLY</a>
+</h1><br/>
+Ensure that SCRIPTS.VOL is deleted from both "base" and "RPG".<br/>
+World Ender will NOT run if Tribes attempts to load these vol files.<br/><br/>
+</div>
+<h2 class="softblack" style="padding: 4px; margin: 0px;">
+<a href="https://github.com/DescenderX/TribesRPGWorldEnder">Server code on GitHub</a>
+</h2>
+</div>
+
+</center>
+</div>
+
 <p></p>
 
 
 
 <div class="textblock">
-<div class="headerblock">Story</div>
+<div class="headerblock" id="story">Story</div>
+<div class="backbtn"><a href="#top">^</a></div>
 <p style="background: rgba(15,1,25,0.3);"><font size=4pt>
 In "World Ender", Keldrin's waters are running dry, but nobody knows why. The Druids have moved from their town of Wellsprings to their new home of Oasis. The Wizards retreated to Wyzanhyde - after shutting down the weather machines at Delkin Heights; freezing Overville; and blocking off the Dig Site. Thinking that shutting down the weather devices would slow the drying of the water was wrong - a thick, dark fog descended as the last device was powered off. Churls, Imps and demons burst through the earth from the Undercity. Gnolls seized an opportunity to move into Old Ethren. Minotaurs and Ratman took over castle ruins. Natives turned to savages as the Luminous Dawn's Newcomers pushed them out of their territory. The residents of Wellsprings went mad drinking the water, calling themselves Wildenslayers. And, the Ancients awoke.
 </p><p style="background: rgba(15,1,25,0.3);">
@@ -68,46 +92,10 @@ Newcomers who don't get lost at the Restaurant at the End of the World tend to f
 <center><h2 class="softblack">Will you end Keldrin and start a new cycle?<br/><br/>...or work to keep this cycle from ending?</h1></center>
 </div>
 
-<p></p>
-
-<div class="textblock">
-<div class="headerblock" id="install">Install & Play</div>
-<div class="backbtn"><a href="#top">^</a></div>
 
 
 <div class="textblock">
-<div class="headerblock2">Client</div>
-<ul>
-<li><a href="https://tribesrpg.org/downloads.php">Install TribesRPG.org's <b>"Full Install"</b></a> package to its own folder</li>
-<li><a href="https://mega.nz/file/y95yiBCD#g-DEvH54OVVgzCecOyBoPEP6LxT6uyQZ8unrV3Jg_lg">Extract <b>"WorldEnder.zip"\Client\RPG</b></a> over top of your <b>"Full Install"\RPG</b> folder.
-<li>Start the game using the included rpgmod.bat file. Join the main World Ender server, or start your own server!</li>
-</ul>
-</div>
-<p></p>
-
-
-<div class="textblock">
-<div class="headerblock2">Server</div>
-<ul>
-<li><a href="https://tribesrpg.org/downloads.php">Install TribesRPG.org's <b>"Dedicated Server"</b></a> package to its own folder
-<br/><font class="important">Delete <b>scripts.vol</b> from ALL folders! The mod will not work otherwise!</font></li>
-<li><a href="https://mega.nz/file/fxpUCCrB#1anBVWlaL7b6AJQ7ce6j8KUizTETIvtTltQtx-tUSZY">Extract <b>"WorldEnder.zip"\Server\RPG</b></a> over top of your <b>"Dedicated Server"\RPG</b> folder.
-<br/><font class="important">Overwrite files when prompted! World Ender currently takes over the server's RPG folder. This will be sorted in the future.</font></li>
-<li>Start the game using the included rpgmod.bat file.
-<br/>By default, you will be running a private, local server with the password of <font class="marooned">password</font>
-<br/>Change server configuration in <font class="marooned">\RPG\scripts\Server.cs </font> and <font class="marooned">\RPG\scripts\wendrpg_server_config.cs</font></center></li>
-</ul>
-</div>
-
-<div class="textblock">
-
-</div>
-
-</div>
-
-
-<div class="textblock">
-<div class="headerblock" id="mechanics">Gameplay Mechanics</div>
+<div class="headerblock" id="mechanics">Gameplay</div>
 <div class="backbtn"><a href="#top">^</a></div>
 
 
@@ -126,6 +114,8 @@ Newcomers who don't get lost at the Restaurant at the End of the World tend to f
 <div class="headerblock2">New Systems and Events</div>
 <div class="backbtn"><a href="#top">^</a></div>
 <table width="90%">
+<tr class="skills"><td>Helpful Menu</td><td>Press TAB while in-game to get access to help, lists of available skills, common commands, and more!</td></tr>
+<tr class="skills"><td>Idioms</td><td>Skilled Wordsmiths don't need spell trees - they can #inscribe spells into "Glass Idioms" using alternate skill trees. Cast spells like wizards of old. Prepare your spells in stone, and #render them when you need to!</td></tr>
 <tr class="skills"><td>Luck</td><td>All Newcomers begin luckless. Luck influences the chance that enemies will drop their weapons when killed, and increases the quantities of other items they drop as well. Luck cannot be "trained", and cannot exceed a 50% influence rate.</td></tr>
 <tr class="skills"><td>Governing Skills</td><td>Strength, Endurance, Focus and Willpower all have a strong effect on other skills. Druids that forget about Focus will find themselves casting spells slowly. Clerics that forget about Strength won't deal much damage and won't wear good armor.</td></tr>
 <tr class="skills"><td>Thirst</td><td>Thirst impacts your health and mana regeneration. At low levels, the effect won't be noticable. At high levels, your Vitality and Energy will begin to work against you very quickly. You can drink from any river or pool by jumping in, or carry water with you in a variety of flasks. Mages who expect to be poor may wish to intentionally limit their Energy pool in order to avoid the negative impacts of thirst...</td></tr>
@@ -185,12 +175,12 @@ Newcomers who don't get lost at the Restaurant at the End of the World tend to f
 <div class="backbtn"><a href="#top">^</a></div>
 
 <table width="90%">		
-<tr style="color: gold;"><td>Keldrin Mandate</td><td>Uphold The Mandate. Deliver supplies. Kill outlaws.<br/>Upgrade to progressively better shields.</tr>
-<tr style="color: red;"><td>College of Geoastrics</td><td>Collect samples. Kill high-level enemies. Turn in special ore.</br>Use most portals for free.<br/>Receive a special flask and useful mining tools.</td></tr>
-<tr style="color: rgb(122,100,150);"><td>Luminous Dawn</td><td>Turn in stones. Establish #waylinks for all members to use.<br/>#fasttravel to any zone with a #waylink<br/>Work up to a private #outpost in the sky.</td></tr>
-<tr style="color: green;"><td>Wildenslayers</td><td>SLAY Greenskins! SLAY Minotaurs! Gain rank for your frags. Turn in trophies.<br/>Receive Slayer Gear immediately upon joining.<br/>Slayer Gear improves with rank, increasing defense, weight capacity, and more.</td></tr>
-<tr style="color: gray;"><td>Order Of Qod</td><td>Incinerate vile substances and return souls to Qod. Learn to #brew, and carry the Sign.</td></tr>
-<tr style="color: black; background: rgba(255,255,255,0.1); color: rgb(50,50,50);"><td>Slicer's Hands</td><td>Shakedown targets. Hunt 'troublemakers'.<br/>Pay off your heat.</td></tr>
+<tr style="color: gold;"><td>Keldrin Mandate</td><td>Uphold The Mandate.<br/>Deliver supplies.<br/>Kill outlaws.<br/>Upgrade to progressively better shields.</tr>
+<tr style="color: red;"><td>College of Geoastrics</td><td>Collect samples.<br/>Kill high-level enemies.<br/>Turn in special ore.</br>Use most portals for free.<br/>Receive a special flask and useful mining tools.</td></tr>
+<tr style="color: rgb(122,100,150);"><td>Luminous Dawn</td><td>Turn in stones.<br/>Establish #waylinks for all members to use.<br/>#fasttravel to any zone with a #waylink<br/>Work up to a private #outpost in the sky.</td></tr>
+<tr style="color: green;"><td>Wildenslayers</td><td>SLAY beasts and take their trophies!<br/>Gain rank for your frags.<br/>Receive Slayer Gear immediately upon joining.<br/>Slayer Gear improves with rank, increasing defense, weight capacity, and more.</td></tr>
+<tr style="color: gray;"><td>Order Of Qod</td><td>Gain exclusive access to the Septic System of Hazard<br/>Incinerate vile substances and return souls to Qod.<br/>Learn to #brew, and carry the Sign.</td></tr>
+<tr style="color: black; background: rgba(255,255,255,0.1); color: rgb(50,50,50);"><td>Slicer's Hands</td><td>Shakedown targets.<br/>Hunt 'troublemakers'.<br/>Pay off your heat.</td></tr>
 </table>
 </div>
 
@@ -201,143 +191,117 @@ Newcomers who don't get lost at the Restaurant at the End of the World tend to f
 <div class="headerblock" id="zones">Zones</div>
 <div class="backbtn"><a href="#top">^</a></div>
 
-<table width="90%">
+<table class="zonetbl" width="90%">
 
-			
+<tr class="headerblock" style="color: gold;"><td colspan=2>Towns</td></tr>
 <tr class="important">
-	<td>Town</td>
 	<td>Hall of Souls</td>
 	<td>A place where dead souls collect before being sent back to Keldrin.</td>
 </tr>
-<tr class="important">
-	<td>Town</td>
+<tr class="important">	
 	<td>Keldrin Town</td>
 	<td>Fighters and Bards begin here. The Mandate occupies land here.</td>
 </tr>
 <tr class="important">
-	<td>Town</td>
 	<td>Jaten</td>
 	<td>Rangers and Thieves begin here</td>
 </tr>
 <tr class="important">
-	<td>Town</td>
 	<td>Oasis</td>
 	<td>Druids and Invokers begin here</td>
 </tr>
 <tr class="important">
-	<td>Town</td>
 	<td>Wyzanhyde Priory</td>
 	<td>Mages and Paladins begin here</td>
 </tr>
 <tr class="important">
-	<td>Town</td>
 	<td>Mercator</td>
 	<td>Enchanters and Merchants begin here. Home of the Luminous Dawn.</td>
 </tr>
 <tr class="important">
-	<td>Town</td>
 	<td>Hazard</td>
 	<td>Brawlers and Clerics begin here</td>
 </tr>
 <tr class="important">
-	<td>Town</td>
 	<td>College of Geoastrics</td>
 	<td>A place where Geostrologists gather to study</td>
 </tr>
 <tr class="important">
-	<td>Town</td>
 	<td>Fort of Ethren</td>
 	<td>The Mandate occupies land here</td>
 </tr>
 <tr class="important">
-	<td>Town</td>
 	<td>Wellsprings</td>
 	<td>Once occupied by Druids - now, it's dry</td>
 </tr>						
 <tr class="important">
-	<td>Town</td>
 	<td>Restaurant at the End of the World</td>
-	<td>???</td>
+	<td>Tall drunken tales out of Hazard tell of a Keeper who serves wisdom.</td>
 </tr>
 <tr class="important">
-	<td>Town</td>
 	<td>Fight Club</td>
-	<td>???</td>
+	<td>Wellsprings provides an endless supply of 'talent' for the nearby Fight Club.</td>
 </tr>
 
-<p></p>
+<tr class="headerblock"><td colspan=2>Dungeons</td></tr>
+<tr class="marooned"><td>Altar of Shame</td><td>Savages</td></tr>
+<tr class="marooned"><td>Abandoned Dig Site</td><td>Churls</td></tr>
+<tr class="marooned"><td>Amazon Forest</td><td>Amazons</td></tr>
+<tr class="marooned"><td>Traveller's Canyon</td><td>Travellers</td></tr>
+<tr class="marooned"><td>Ancient Sanctuary</td><td>Ancients</td></tr>
+<tr class="marooned"><td>Damned Crypt</td><td>Skeletons</td></tr>
+<tr class="marooned"><td>Black Market</td><td>Outlaws</td></tr>
+<tr class="marooned"><td>Temple Of Delusion</td><td>Deluded</td></tr>
+<tr class="marooned"><td>Stronghold Yolanda</td><td>Orcs</td></tr>
+<tr class="marooned"><td>The Wastes</td><td>Ogres</td></tr>
+<tr class="marooned"><td>Keldrin Mine</td><td>Goblins</td></tr>
+<tr class="marooned"><td>Orc Base</td><td>Orcs</td></tr>
+<tr class="marooned"><td>Elven Outpost</td><td>Elves</td></tr>
+<tr class="marooned"><td>Antaris Remains</td><td>Antanari</td></tr>
+<tr class="marooned"><td>Kymer Deadwood</td><td>Kymera</td></tr>
+<tr class="marooned"><td>Cravv Keep</td><td>Craven</td></tr>
+<tr class="marooned"><td>Jherigo Pass</td><td>Jheriman</td></tr>
+<tr class="marooned"><td>Septic System</td><td>Lost Souls</td></tr>
+<tr class="marooned"><td>Old Ethren</td><td>Gnolls</td></tr>
+<tr class="marooned"><td>Chamber of Animation</td><td>Golems</td></tr>
+<tr class="marooned"><td>Tainted Sewer</td><td>Churls</td></tr>
+<tr class="marooned"><td>Overville</td><td>Cragspawn</td></tr>
+<tr class="marooned"><td>Cavern Of Torment</td><td>Imps</td></tr>
+<tr class="marooned"><td>Graveyard</td><td>Zombies</td></tr>
+<tr class="marooned"><td>Undercity</td><td>Demons and fodder</td></tr>
+<tr class="marooned"><td>Collapsed Castle</td><td>Ratmen and Minotaurs</td></tr>
+<tr class="marooned"><td>Palace Safeway</td><td>Minotaurs</td></tr>
 
-<tr class="marooned"><td>Dungeon</td><td>Altar of Shame</td><td>Savages</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Abandoned Dig Site</td><td>Churls</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Amazon Forest</td><td>Amazons</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Traveller's Canyon</td><td>Travellers</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Ancient Sanctuary</td><td>Ancients</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Damned Crypt</td><td>Skeletons</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Black Market</td><td>Outlaws</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Temple Of Delusion</td><td>Deluded</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Stronghold Yolanda</td><td>Orcs</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>The Wastes</td><td>Ogres</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Keldrin Mine</td><td>Goblins</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Orc Base</td><td>Orcs</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Elven Outpost</td><td>Elves</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Antaris Remains</td><td>Antanari</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Kymer Deadwood</td><td>Kymera</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Cravv Keep</td><td>Craven</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Jherigo Pass</td><td>Jheriman</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Septic System</td><td>Lost Souls</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Old Ethren</td><td>Gnolls</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Chamber of Animation</td><td>Golems</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Tainted Sewer</td><td>Churls</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Overville</td><td>Cragspawn</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Cavern Of Torment</td><td>Imps</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Graveyard</td><td>Zombies</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Undercity</td><td>Demons and fodder</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Collapsed Castle</td><td>Ratmen and Minotaurs</td></tr>
-<tr class="marooned"><td>Dungeon</td><td>Palace Safeway</td><td>Minotaurs</td></tr>
-<tr style="color:green;"><td>ELDER</td><td>Mylehi Watch </td><td>Elle</td></tr>
-<tr style="color:green;"><td>ELDER</td><td>Solitude</td><td>Pios</td></tr>
-<tr style="color:green;"><td>ELDER</td><td>Icon of Delusion</td><td>Gat</td></tr>
-<tr style="color:green;"><td>ELDER</td><td>Secluded Cave</td><td>Squall</td></tr>
-<tr style="color:green;"><td>ELDER</td><td>Creten's Arena</td><td>Creten</td></tr>
-<tr style="color:green;"><td>ELDER</td><td>Syncronicon</td><td>Qod</td></tr>
-<tr style="color:green;"><td>ELDER</td><td>Eviscera</td><td>Zatan</td></tr>
-	
-<p></p>	
+<tr class="headerblock" style="color:green;"><td colspan=2>ELDERS</td></tr>
+<tr style="color:green;"><td>Mylehi Watch </td><td>Elle</td></tr>
+<tr style="color:green;"><td>Solitude</td><td>Pios</td></tr>
+<tr style="color:green;"><td>Icon of Delusion</td><td>Gat</td></tr>
+<tr style="color:green;"><td>Secluded Cave</td><td>Squall</td></tr>
+<tr style="color:green;"><td>Creten's Arena</td><td>Creten</td></tr>
+<tr style="color:green;"><td>Syncronicon</td><td>Qod</td></tr>
+<tr style="color:green;"><td>Eviscera</td><td>Zatan</td></tr>
 
+<tr class="headerblock" style="color:gray;"><td colspan=2>Strange Ruins</td></tr>
 <tr>
-	<td>Strange Ruin</td>
-	<td>???</td>
-	<td>In a valley near Fort Ethren.</td>
+	<td>Keeper of Armor</td><td colspan=2>Guards a monument overlooking a valley near Fort Ethren.</td>
 </tr>
 <tr>
-	<td>Strange Ruin</td>
-	<td>???</td>
-	<td>An old, rich Elven tower.</td>
+	<td>Keeper of Robes</td><td colspan=2>Occupies an old, rich Elven tower.</td>
 </tr>
 <tr>
-	<td>Strange Ruin</td>
-	<td>???</td>
-	<td>A sword stuck in the land.</td>
+	<td>Keeper of Swords</td><td colspan=2>Protects a sword stuck in the land where water once flowed.</td>
 </tr>
 <tr>
-	<td>Strange Ruin</td>
-	<td>???</td>
-	<td>A dagger lodged in the land.</td>
+	<td>Keeper of Daggers</td><td colspan=2>Entranced by a dagger lodged in the land near the end of the world.</td>
 </tr>
 <tr>
-	<td>Strange Ruin</td>
-	<td>???</td>
-	<td>A monument to stone.</td>
+	<td>Keeper of Old</td><td colspan=2>Forever building a monument to stone in the hills, far from other monuments.</td>
 </tr>
 <tr>
-	<td>Strange Ruin</td>
-	<td>???</td>
-	<td>An Ancient colliseum.</td>
+	<td>Keeper of Justice</td><td colspan=2>Oversees an Ancient colliseum.</td>
 </tr>
 <tr>
-	<td>Strange Ruin</td>
-	<td>???</td>
-	<td>Under a cliff.</td>
+	<td>Keeper of Earth</td><td colspan=2>Rumored to have made a home under a cliff.</td>
 </tr>
 
 		

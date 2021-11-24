@@ -1,0 +1,16 @@
+DescX says:
+
+
+	* All meshes and skins were derived from assets in the https://tribesrpg.org/ Repack!
+
+	* This mod uses community assets built up over the years exclusively!
+	  The only reason I was able to develop this mod in two months' time is due to the
+	  wonderful, massive quantity of assets gathered up over the years. I earnestly
+	  wouldn't know who to begin to credit and implore you to seek credits within
+	  the TribesRPG org's Repack itself.
+
+	* The audio files for World Ender will change! At the moment, the vast majority of
+	  "new" sounds are placeholders intended to generate a basic sense of atmosphere.
+	  They will be replaced with more appriate choices all around in future versions.
+	  Credits will be updated when this situation is stable -- but most sound effects
+	  are from the original mod! 

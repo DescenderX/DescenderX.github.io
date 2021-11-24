@@ -1,0 +1,15 @@
+DescX says:
+
+
+*	Original Tribes RPG code is licensed as GPL.
+
+
+*	As far as anything added for "World Ender" goes:
+		1) Use my code. Change the mod. Do what you want. Hope it helps! Have fun.
+		2) DO NOT ask permission to use my code. The answer will always be "Yes".
+
+*	My terms:
+		1) If you break your face with this code, it's your fault. No warranty etc.
+		2) Don't hurt anyone with this code.
+		3) Contribute something back to TribesRPG if you can.
+
